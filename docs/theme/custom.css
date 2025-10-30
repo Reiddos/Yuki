@@ -1,0 +1,5 @@
+/* 全站图片自动居中 */
+img {
+  display: block;
+  margin: 0 auto;
+}
