@@ -58,6 +58,8 @@ export default defineConfig({
 
 
   themeConfig: {
+
+    logo: '/01.ico',
     //页脚
     footer: {
       message: 'per aspera ad astra',
