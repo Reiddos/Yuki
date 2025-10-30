@@ -39,6 +39,9 @@ export default defineConfig({
       pattern: 'https://github.com/Reiddos/Yuki/edit/main/docs/:path',
     },
 
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Reiddos/Yuki' }
+    ],
 
 
     nav: [
