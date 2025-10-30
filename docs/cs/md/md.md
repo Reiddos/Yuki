@@ -22,4 +22,5 @@ $$
 
 四：图片在pulic界面下：! [] () 
 
-![yuki](/Yuki/02.jpg)
+![yuki](/02.jpg)
+
