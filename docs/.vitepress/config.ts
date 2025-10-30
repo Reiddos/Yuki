@@ -2,6 +2,23 @@ import { defineConfig } from 'vitepress'
 import { mathSidebar } from './configs/math'
 import { csSidebar } from './configs/cs'
 
+import { pagefindPlugin } from 'vitepress-plugin-pagefind'
+
+
+function chineseSearchOptimize(input: string) {
+  const segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' })
+  const result: string[] = []
+  for (const it of segmenter.segment(input)) {
+    if (it.isWordLike) {
+      result.push(it.segment)
+    }
+  }
+  return result.join(' ')
+}
+
+
+
+
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
@@ -20,7 +37,23 @@ export default defineConfig({
   markdown: {
     math: true,
   },
-
+  vite: {
+      plugins: [
+        pagefindPlugin({
+          btnPlaceholder: '搜索',
+          placeholder: '搜索文档',
+          emptyText: '空空如也',
+          heading: '共: {{searchResult}} 条结果',
+          excludeSelector: ['img', 'a.header-anchor'],
+          customSearchQuery: chineseSearchOptimize,
+          filter(searchItem, idx, originArray) {
+            console.log(searchItem)
+            return !searchItem.route.includes('404')
+          },
+        })
+      ]
+    },
+    // ^^^^ vite 配置结束 ^^^^
 
 
 
@@ -29,10 +62,10 @@ export default defineConfig({
     footer: {
       message: 'per aspera ad astra',
     },
-    //搜索
-    search: {
-      provider: 'local'
-    },
+    // 搜索
+    // search: {
+    //   provider: 'local'
+    // },
 
 
     editLink: {
@@ -68,7 +101,7 @@ export default defineConfig({
         items:[
           {
             items:[
-              { text:'markdown',link:'/cs/md/md'},
+              { text:'markdown',link:'/cs/markdown/markdown'},
               { text:'导论',link:'/cs/cs_intro/intro'},
               { text: 'CS61编程', link: '/cs/cs61/intro' }
             ]
