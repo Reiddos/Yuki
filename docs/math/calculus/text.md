@@ -1,5 +1,4 @@
 # 教材
 
-<a href="/Yuki/docs/math/calculus/jm.pdf#page=5" target="_blank">
-  打开微积分讲义第 5 页
-</a>
+1.<a href="/Yuki/docs/math/calculus/jm.pdf#page=1" target="_blank"> 吉米多维奇 </a> ：不定积分，微积分部分
+
