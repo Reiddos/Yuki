@@ -20,6 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          lfs: true    #下载真实的PDF文件
           fetch-depth: 0 
 
       # 2. 安装 Node.js
