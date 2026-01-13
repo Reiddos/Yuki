@@ -1,3 +1,3 @@
 # 教材
 
-1.<a href="/math/calculus/jimi.pdf" target="_blank"> 吉米多维奇 </a> ：不定积分，微积分部分
+1.<a href="/math/calculus/jimi.pdf#page=1" target="_blank"> 吉米多维奇 </a> ：不定积分，微积分部分
