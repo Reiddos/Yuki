@@ -3,3 +3,10 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+/* * 2. 为 VitePress 默认主题中的正文内容（.vp-doc）
+ * 里的所有段落（p）添加首行缩进
+ */
+.vp-doc p {
+  text-indent: 1em; /* 2em 表示缩进两个字符的宽度 */
+}

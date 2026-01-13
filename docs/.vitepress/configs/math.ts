@@ -7,6 +7,12 @@ export const mathSidebar: DefaultTheme.Sidebar = {
       text: '高等数学',
       link:'/math/calculus/main',
       items: [
+         {
+          text: '教材',
+          link:'/math/calculus/text',
+          collapsed: false,
+        },
+
         {
           text: '第一部分',
           link:'/math/calculus/part1',

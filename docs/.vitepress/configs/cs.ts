@@ -10,7 +10,7 @@ export const csSidebar: DefaultTheme.Sidebar = {
         {
           text: '第一部分',
           collapsed: true,
-          items:[ { text: '第一章' } ]
+          items:[ { text: '第一章', link:'/cs/cs_intro/part1' } ]
         }
       ]
     }
