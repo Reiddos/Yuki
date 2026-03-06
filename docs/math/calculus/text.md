@@ -6,7 +6,5 @@
 
 > (1) [MIT概率论](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/resources/lecture-notes/)
 >
-> (2) [Introduction to probability](/Yuki/math/calculus/probability.pdf)
->
-> (3)<a href="/Yuki/math/calculus/probability.pdf#page=1" target="_blank" > intro </a>
+> (2)<a href="/Yuki/math/calculus/probability.pdf#page=1" target="_blank" > Introduction to probability </a>
 
