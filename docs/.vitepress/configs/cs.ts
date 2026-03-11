@@ -27,5 +27,17 @@ export const csSidebar: DefaultTheme.Sidebar = {
         }
       ]
     }
+  ],
+
+  '/cs/RL/': [
+    {
+      text: '强化学习',
+      //link:'/cs/RL/chapter1',
+      items: [
+        { text: '第一章', link:'/cs/RL/chapter1' },
+        { text: '术语表', link:'/cs/RL/term' },
+      ]
+    }
   ]
+
 }

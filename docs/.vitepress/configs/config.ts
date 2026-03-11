@@ -67,7 +67,8 @@ export default defineConfig({
             items:[
               { text:'markdown',link:'/cs/md/md'},
               { text:'导论',link:'/cs/cs_intro/intro'},
-              { text: 'CS61编程', link: '/cs/cs61/intro' }
+              { text: 'CS61编程', link: '/cs/cs61/intro' },
+              { text: '强化学习', link: '/cs/RL/chapter1' },
             ]
           }
         ]
