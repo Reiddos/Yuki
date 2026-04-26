@@ -34,8 +34,17 @@ export const csSidebar: DefaultTheme.Sidebar = {
       text: '强化学习',
       //link:'/cs/RL/chapter1',
       items: [
+        { text:"机器人学导论" , 
+          items:[
+          { text: 'kinetics', link: '/cs/RL/intro2robo' },
+          { text: 'kinetics——jabobian', link: '/cs/RL/jacobian' },
+        
+        
+          ]
+        },
         { text: '第一章', link:'/cs/RL/chapter1' },
         { text: '术语表', link:'/cs/RL/term' },
+        
       ]
     }
   ]
