@@ -4,7 +4,7 @@
 
 公式太多，使用手写<a href="/Yuki/cs/RL/dynamics.pdf#page=1" target="_blank" > 点击此处查看 </a>
 
-# 2. 封闭形式的动力学方程
+## 2. 封闭形式的动力学方程
 
 1. 使用牛顿—欧拉推导最后可以整理得到封闭形式。
 2. 力矩可以整理得到**状态空间形式**：
@@ -79,4 +79,3 @@ $$
    $$
    \tau=M(\Theta)\ddot{\Theta}+V(\Theta,\dot{\Theta})+G(\Theta)+F(\Theta,\dot{\Theta})
    $$
-   
