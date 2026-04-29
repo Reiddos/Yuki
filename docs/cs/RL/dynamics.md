@@ -24,8 +24,6 @@ $$
    \tau=M(\Theta)\ddot{\Theta}+B(\Theta)[\dot{\Theta}\dot{\Theta}]+C(\Theta)[\dot{\Theta}^2]+G(\Theta)
    $$
 
-6. 
-
 ## 3. 拉格朗日方程
 
 使用牛顿欧拉法是对每一个杆进行细致的运动和力的推导，而拉格朗日法是从**能量**的观点，直接求出关节力矩。**牛顿欧拉**主要关注如下两个方程：
@@ -79,3 +77,4 @@ $$
    $$
    \tau=M(\Theta)\ddot{\Theta}+V(\Theta,\dot{\Theta})+G(\Theta)+F(\Theta,\dot{\Theta})
    $$
+
