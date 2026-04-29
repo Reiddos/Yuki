@@ -39,7 +39,7 @@
 1. **Coulomb friction，库仑摩擦**：$f_t \leq \mu f_n$，$f_t$ 是切向摩擦力，$f_n$是法向压力。
 2. **摩擦锥**：有了摩擦力之后，接触力可以不用完全与法向量方向重合，可以偏离，且切向分量不能超过静摩擦力：$\sqrt{f_x^2 + f_y^2} \leq \mu f_z$
 
-![friction cone](/cs/RL/friction cone.png)
+![friction_cone](/cs/RL/friction_cone.png)
 
 3. 如上图所示，(a)中的锥就是摩擦锥，这是所有力的可行区域，(b)展示的是摩擦角，摩擦系数越大摩擦角越大。力在摩擦锥内部表示接触没有相对运动，在外部表示会产生滑动，而在边界上表示达到了最大静摩擦，马上滑动或者正在滑动。
 
@@ -47,7 +47,7 @@
 
 4. **wrench cone**：把接触点的力变成$\mathcal{F}$，加入了力矩的限制。如图所示：
 
-![wrench cone](/cs/RL/wrench cone.png)
+![wrench_cone](/cs/RL/wrench_cone.png)
 
 图中的(a)是平面摩擦锥，(b)是wrench cone。而多个接触共同作用在同一个物体时，总wrench是把所有的wrench加起来，如(d)中所示。$WC=\left\{\sum_ik_i\mathcal{F}_i\mid\mathcal{F}_i\in WC_i,k_i\geq0\right\}$
 
