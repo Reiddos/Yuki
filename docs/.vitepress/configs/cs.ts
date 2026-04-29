@@ -39,6 +39,7 @@ export const csSidebar: DefaultTheme.Sidebar = {
           { text: 'kinetics', link: '/cs/RL/intro2robo' },
           { text: 'kinetics——jabobian', link: '/cs/RL/jacobian' },
           { text: 'dynamics', link: '/cs/RL/dynamics' },
+          { text: 'contact', link: '/cs/RL/contact' },
         
         
           ]
