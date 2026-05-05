@@ -73,7 +73,10 @@ gym基本用法：
 
 在一个状态使用同一个策略，可能会按照概率采取不同的动作，SARSA的方法和估算V值的TD一样，还是直接按概率采取一个行动不去求期望，然后通过多次迭代来逼近。这两种方法的公式如下：
 $$
-\mathrm{Qleaning:}\quad Q(S,A)\leftarrow Q(S,A)+\alpha\left[R+\gamma\max_{a}Q\left(S^{\prime},a\right)-Q(S,A)\right]\\
+\mathrm{Qleaning:}\quad Q(S,A)\leftarrow Q(S,A)+\alpha\left[R+\gamma\max_{a}Q\left(S^{\prime},a\right)-Q(S,A)\right]\
+$$
+
+$$
 \mathrm{SARSA:}\quad Q(S,A)\leftarrow Q(S,A)+\alpha\left[R+\gamma Q\left(S^{\prime},A^{\prime}\right) - Q(S,A)\right]
 $$
 

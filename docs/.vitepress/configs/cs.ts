@@ -46,6 +46,7 @@ export const csSidebar: DefaultTheme.Sidebar = {
         },
         { text: '第一章', link:'/cs/RL/chapter1' },
         { text: 'Q-Learning', link:'/cs/RL/QL' },
+        { text: 'DQN', link:'/cs/RL/dqn' },
         { text: '术语表', link:'/cs/RL/term' },
         
       ]
